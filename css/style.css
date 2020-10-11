@@ -98,7 +98,6 @@ body {
   padding: 70px 20px;
   width: 90%;
   margin: 30px auto;
-  box-shadow: 2px 2px 5px grey;
 }
 
 h1 {
@@ -118,6 +117,11 @@ h1 {
       flex: 0 0 30%;
   text-align: center;
   margin-left: 36px;
+}
+
+.our-portfolio {
+  background-color: whitesmoke;
+  padding-top: 30px;
 }
 
 h2 {
@@ -151,14 +155,13 @@ p {
 }
 
 .card {
-  padding: 60px;
+  padding: 0;
   font-size: 18px;
+  margin: 20px 20px;
 }
 
 .footer {
-  margin: 48px 0;
-  -ms-flex-pack: center;
-      justify-content: center;
+  margin: 24px 0;
   -ms-flex-align: center;
       align-items: center;
 }
@@ -182,6 +185,5 @@ p {
   -ms-flex-align: center;
       align-items: center;
   margin: 0;
-  padding-left: 0;
 }
 /*# sourceMappingURL=style.css.map */
