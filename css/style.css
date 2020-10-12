@@ -9,34 +9,42 @@ body {
   text-align: center;
 }
 
-.section {
-  margin: 0 auto;
-  padding: 32px;
-  width: 100%;
-  padding-left: 480px;
+.col-3 p {
+  color: yellow;
+  font-family: "Montserrat", sans-serif;
+  padding: 24px;
+  font-size: 26px;
 }
 
-.section ul {
+.col-9 {
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+  padding-left: 250px;
+}
+
+.col-9 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.section ul li {
+.col-9 ul li {
   display: inline-block;
   margin-right: 36px;
   position: relative;
 }
 
-.section ul li a {
+.col-9 ul li a {
   color: white;
 }
 
 .splash {
   height: 100vh;
   position: relative;
-  background-image: url(https://images.pexels.com/photos/1712/sunglasses-apple-iphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://themothermag.com/wp-content/uploads/2018/01/feng-shui-biurko.jpg);
   background-position: center center;
+  background-size: cover;
 }
 
 .splash-inner {
@@ -45,6 +53,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.services {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 96px;
 }
 
 .page-title {
@@ -94,10 +108,8 @@ body {
 }
 
 .container {
-  max-width: 1500px;
-  padding: 70px 20px;
-  width: 90%;
-  margin: 30px auto;
+  width: 100%;
+  margin: 0px auto;
 }
 
 h1 {
@@ -108,20 +120,18 @@ h1 {
 .row {
   display: -ms-flexbox;
   display: flex;
+  padding: 30px;
 }
 
 .box {
   padding: 60px;
   font-size: 18px;
-  -ms-flex: 0 0 30%;
-      flex: 0 0 30%;
-  text-align: center;
-  margin-left: 36px;
+  -ms-flex: 0 0 33.333%;
+      flex: 0 0 33.333%;
 }
 
 .our-portfolio {
-  background-color: whitesmoke;
-  padding-top: 30px;
+  padding-top: 70px;
 }
 
 h2 {
@@ -137,15 +147,14 @@ p {
   font-size: 30px;
   width: 60px;
   height: 60px;
-  line-height: 60px;
+  line-height: 50px;
   color: yellow;
   border-radius: 50%;
   text-align: center;
   display: inline-block;
-}
-
-.icon-background {
-  color: yellow;
+  border-width: 5px;
+  border-style: solid;
+  border-color: yellow;
 }
 
 .card img {
@@ -157,7 +166,7 @@ p {
 .card {
   padding: 0;
   font-size: 18px;
-  margin: 20px 20px;
+  margin: 18px 16px;
 }
 
 .footer {
@@ -166,7 +175,7 @@ p {
       align-items: center;
 }
 
-.col-8 i {
+.col-10 i {
   background: black;
   font-size: 30px;
   width: 60px;
@@ -177,13 +186,13 @@ p {
   text-align: center;
 }
 
-.col-8 ul {
+.col-10 ul {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  margin: 0;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
