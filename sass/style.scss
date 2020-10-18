@@ -7,26 +7,20 @@ $font-header: 'Sansita Swashed', cursive;
 }
 body {
     margin: 0;
-    font-size: 14;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.4;
     text-align: center;
 }
 .col-3 p {
     color:yellow;
     font-family: $font-text;
-    padding: 24px;
     font-size: 26px;
 }
-.col-9 {
-    margin: 0 auto;
-    padding: 30px;
-    width: 100%;
-    padding-left: 250px;
-
+.row-navigation {
+   
         ul {
             list-style-type: none;
-            padding: 0;
-            margin: 0;
+            text-align: right;
         
             li {
                 display: inline-block;
@@ -41,26 +35,28 @@ body {
     }
 
 .splash {
-    height: 100vh;
     position: relative;
     background-image: url(https://themothermag.com/wp-content/uploads/2018/01/feng-shui-biurko.jpg);
     background-position: center center;
     background-size: cover;
-
+    padding: 300px 0;
 }
 .splash-inner {
     position: absolute;
-    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
    
 }
 .services {
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 96px;
     
+    text-align: center;
+    padding: 60px 20px;
+    
+}
+.section-title {
+    
+    margin: 0;
 }
 .page-title {
     margin: 0;
@@ -79,7 +75,7 @@ body {
     color: white;
 }
 .btn {
-    display: flex;
+    display: relative;
     width: 240px;
     height: 65px;
     margin:24px auto 0 auto;
@@ -88,54 +84,45 @@ body {
     font-size: 18px;
     text-align: center;
     text-decoration: none;
-    cursor: pointer;
-    border-width: 2px;
+    border: 2px solid;
     border-style: solid;
     background-position: 100% 0;
     background-size: 300%;
-    background-color: #FED136;
+    
 }
 .btn-one {
     border-color:#707070;
-    color: yellow;
-    background-image: linear-gradient(90deg, yellow);
+    color: white;
+    background-color: yellow;
     text-align: center;
-    padding: 21px 50px;
     font-family: $font-text;
 }
-.container {
-    
-    width: 100%;
-    margin: 0px auto;
-    
-}
+
 h1 {
     font-size: 40px;
     margin: 0 0 10px 0;
     
 }
-.row {
-    display: flex;
-    padding: 30px;
-}
-.box {
+
+.col-8 {
     padding: 60px;
     font-size: 18px;
     flex: 0 0 33.333%;
     
 }
-.our-portfolio {
 
-    padding-top: 70px;
+.our-portfolio {
+    background-color: whitesmoke;
+    padding: 60px 20px;
+    margin: 0;
 }
-h2 {
-    padding-top: 20px;
-}
+
 p {
     font-size: 14px;
     font-family: $font-header;
+    margin: 0;
 }
-.box i {
+.col-8 i {
     font-size: 30px;
     width: 60px;
     height: 60px;
@@ -155,18 +142,19 @@ p {
     object-fit: cover;
 }
 .card {
-    padding: 0;
+    padding:40px 0;
     font-size: 18px;
-    margin: 18px 16px;
-  
+    line-height: 1;
 }
 
-.footer {
-    margin: 24px 0;
+.footer-row {
+    
     align-items: center;
+    list-style: none;
+    
 }
 
-.col-10 i {
+.col-7 i {
     background: black;
     font-size: 30px;
     width: 60px;
@@ -174,12 +162,20 @@ p {
     height: 60px;
     line-height: 60px;
     border-radius: 50%;
-    text-align: center;   
+    text-align: center;  
+    margin: 0 5px;
+
 }
-.col-10 ul {
+.col-7 ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+   
   
+}
+.col-2 p {
+    text-align: right;
+    list-style: none;
+    
+    
 }
