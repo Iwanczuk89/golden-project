@@ -15,6 +15,10 @@ body {
   font-size: 26px;
 }
 
+.row-navigation {
+  padding: 30px;
+}
+
 .row-navigation ul {
   list-style-type: none;
   text-align: right;
@@ -31,15 +35,16 @@ body {
 }
 
 .splash {
+  height: 100vh;
   position: relative;
   background-image: url(https://themothermag.com/wp-content/uploads/2018/01/feng-shui-biurko.jpg);
   background-position: center center;
   background-size: cover;
-  padding: 300px 0;
 }
 
 .splash-inner {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
