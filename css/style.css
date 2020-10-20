@@ -192,3 +192,13 @@ p {
   list-style: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* Media */
+@media (max-width: 576px) {
+  row-navigation {
+    padding: 0 0;
+  }
+  col-7 ul {
+    display: column;
+  }
+}
