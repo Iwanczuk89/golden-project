@@ -81,10 +81,11 @@ body {
     padding-bottom: 18px;
 }
 .btn {
-    display: relative;
+    display: inline-block;
+    margin: 12px auto 0 auto;
     width: 240px;
     height: 65px;
-    padding: 24px 36px;
+    padding: 24px 32px;
     border-radius: 5px;
     font-size: 18px;
     text-align: center;
@@ -101,6 +102,7 @@ body {
     background-color: #FED136;
     text-align: center;
     font-family: $font-text;
+    padding: 18px;
 }
 
 h1 {
@@ -122,8 +124,8 @@ h1 {
     margin: 0;
     
 }
-.our-portfolio p {
-    padding-top: 48px;
+.our-portfolio .section-title {
+    margin-bottom: 44px;
 }
 
 p {
@@ -154,7 +156,7 @@ p {
 .card {
     padding:40px 0;
     font-size: 18px;
-    line-height: 0;
+    line-height: 10px;
 }
 .card-body {
     background-color: white;
