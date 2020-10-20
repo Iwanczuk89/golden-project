@@ -82,10 +82,8 @@ body {
 
 .btn {
   display: inline-block;
-  margin: 12px auto 0 auto;
   width: 240px;
   height: 65px;
-  padding: 24px 32px;
   border-radius: 5px;
   font-size: 18px;
   text-align: center;
