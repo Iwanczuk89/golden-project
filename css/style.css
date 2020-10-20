@@ -13,6 +13,7 @@ body {
   color: yellow;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
+  text-align: right;
 }
 
 .row-navigation {
@@ -28,10 +29,12 @@ body {
   display: inline-block;
   margin-right: 32px;
   position: relative;
+  
 }
 
 .row-navigation ul li a {
   color: white;
+  text-decoration: none;
 }
 
 .splash {
@@ -52,7 +55,7 @@ body {
 
 .services {
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 0;
 }
 
 .section-title {
@@ -71,7 +74,7 @@ body {
 
 .page-subtitle {
   font-family: "Montserrat", sans-serif;
-  margin: 24px 0;
+  margin: 36px 0;
   font-weight: 400;
   font-size: 75px;
   color: white;
@@ -81,8 +84,7 @@ body {
   display: relative;
   width: 240px;
   height: 65px;
-  margin: 24px auto 0 auto;
-  padding: 16px;
+  padding: 24px 36px;
   border-radius: 5px;
   font-size: 18px;
   text-align: center;
@@ -96,7 +98,7 @@ body {
 .btn-one {
   border-color: #707070;
   color: white;
-  background-color: yellow;
+  background-color:#FED136;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -106,7 +108,7 @@ h1 {
   margin: 0 0 10px 0;
 }
 
-.col-8 {
+.buttons-row {
   padding: 60px;
   font-size: 18px;
   -ms-flex: 0 0 33.333%;
@@ -117,6 +119,7 @@ h1 {
   background-color: whitesmoke;
   padding: 60px 20px;
   margin: 0;
+  line-height: 5;
 }
 
 p {
@@ -125,7 +128,7 @@ p {
   margin: 0;
 }
 
-.col-8 i {
+.col-12 i {
   font-size: 30px;
   width: 60px;
   height: 60px;
@@ -146,11 +149,15 @@ p {
 }
 
 .card {
-  padding: 40px 0;
+  padding: 20px 0;
   font-size: 18px;
-  line-height: 1;
+  line-height: 0;
 }
-
+.card-body {
+  background-color: white;
+  padding: 30px;
+  
+}
 .footer-row {
   -ms-flex-align: center;
       align-items: center;
@@ -176,6 +183,8 @@ p {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+      padding: 0;
+      list-style: none;
 }
 
 .col-2 p {
